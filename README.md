@@ -2,18 +2,16 @@
 
 ## Overview
 
-The **Vehicle Parking Management System (VPMS)** is a full-stack web application built using **Node.js**, **Express.js**, **MySQL**, and **HTML/CSS/JS**. 
-It allows users to register, log in, and book parking slots based on region, subdivision, and vehicle type (2-wheeler or 4-wheeler).
+The Vehicle Parking Management System (VPMS) is designed to address the challenges of urban parking. With rapid urbanization, finding a parking spot has become increasingly difficult. VPMS allows users to reserve parking slots in advance, reducing traffic congestion and saving time. The system supports dynamic pricing based on location and vehicle type, ensuring transparency and convenience for users.
 
 ## Features
 
-- User Registration & Login
-- Region/Subdivision-wise Parking Location Display
-- Dynamic Pricing Based on Vehicle Type & Location
-- Real-time Slot Booking with Database Storage
-- Responsive Frontend using HTML/CSS/JS
-- Backend API with Node.js & Express
-- Data persistence with MySQL Database
+- User Authentication: Secure registration and login for users.
+- Dynamic Pricing: Calculates and displays pricing based on location and vehicle type.
+- Real-Time Availability: Fetches and displays available parking slots in real-time.
+- Booking Management: Allows users to book slots with specific dates, times, and locations.
+- Admin Dashboard: Provides admin access to manage locations, bookings, and users.
+- Responsive Design: Ensures accessibility across devices, including desktops, tablets, and smartphones.
 
 ## Technologies Used
 

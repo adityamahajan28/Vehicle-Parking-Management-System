@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Bookings</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Book Parking</h2>
+        <form id="bookingForm">
+            <select id="region" required>
+                <option value="">Select Region</option>
+            
+            </select>
+            <select id="subdivision" required>
+                <option value="">Select Subdivision</option>
+                
+            </select>
+            <select id="location" required>
+                <option value="">Select Location</option>
+
+            </select>
+            <select id="vehicleType" required>
+                <option value="">Select Vehicle Type</option>
+                <option value="2-wheeler">2-Wheeler</option>
+                <option value="4-wheeler">4-Wheeler</option>
+            </select>
+            <input type="text" id="vehicleNumber" placeholder="Enter Vehicle Number" required>
+            <input type="datetime-local" id="parkingDate" required>
+            <div id="priceDisplay" class="price-display"></div>
+            <button type="submit">Book Parking</button>
+        </form>
+
+        <div id="bookingList" class="booking-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
